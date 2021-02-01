@@ -3,7 +3,6 @@
  "name": "No Buy",
  "version": "1.0.0",
  "description": "Reminds users at checkout that they are on a no buy.",
- "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
  "web_accessible_resources": [
     "popup.html"
  ],
@@ -18,9 +17,13 @@
     "js": ["popup.js"]
   }
  ],
+ "icons": {
+   "16": "icon16.png",
+   "128": "icon128.png"
+ },
  "browser_action": {
    "default_title": "No Buy",
    "default_popup": "popup.html",
-   "default_icon": "icon.png"
+   "default_icon": "icon16.png"
  }
 }
