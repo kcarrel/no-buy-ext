@@ -12,7 +12,8 @@
       "https://setactive.co/*/checkouts/*",
       "https://secure-www.gap.com/checkout/place-order/",
       "https://www.sephora.com/checkout",
-      "https://www.ulta.com/checkout"
+      "https://www.ulta.com/checkout",
+      "https://shop.lululemon.com/shop/checkout"
     ],
     "js": ["popup.js"]
   }
