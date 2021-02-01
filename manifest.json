@@ -10,7 +10,10 @@
  "content_scripts": [
   {
     "matches": [
-      "https://setactive.co/*/checkouts/*"
+      "https://setactive.co/*/checkouts/*",
+      "https://secure-www.gap.com/checkout/place-order/",
+      "https://www.sephora.com/checkout",
+      "https://www.ulta.com/checkout"
     ],
     "js": ["popup.js"]
   }
