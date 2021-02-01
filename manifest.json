@@ -4,6 +4,17 @@
  "version": "1.0.0",
  "description": "Reminds users at checkout that they are on a no buy.",
  "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+ "web_accessible_resources": [
+    "popup.html"
+ ],
+ "content_scripts": [
+  {
+    "matches": [
+      "https://setactive.co/*/checkouts/*"
+    ],
+    "js": ["popup.js"]
+  }
+ ],
  "browser_action": {
    "default_title": "No Buy",
    "default_popup": "popup.html",
